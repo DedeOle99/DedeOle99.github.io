@@ -1,0 +1,8 @@
+Origin: DedeOle99 Beta Repo
+Label: DedeOle99 Repo
+Suite: stable
+Version: 1.0
+Codename: dedeole99repo
+Architectures: iphoneos-arm
+Components: main
+Description: Offizielle Repo für Beta-Versionen von DedeOle99
