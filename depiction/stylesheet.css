@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	margin:0;
+	padding:0;
+	color:#000;
+	font-size:14px;
+	line-height:1.4;
+	width:100%;
+	-webkit-text-size-adjust:100%;
+	overflow:hidden
+}
+
+.content-block-title+.content-block, .content-block-title+.list-block {
+	margin-top:10px
+}
+
+.content-block-title {
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 1;
+	color: #6d6d72;
+	margin: 15px 15px 10px;
+}
+
+.content-block {
+	margin: 15px 0;
+	padding: 0 15px;
+	color: #6d6d72;
+}
+
+.content-block-inner {
+	background: #fff;
+	padding: 10px 15px;
+	margin-left: -15px;
+	width: 100%;
+	position: relative;
+	color: #000;
+	border-top: 0.5px solid #c8c7cc;
+	border-bottom: 0.5px solid #c8c7cc;
+}
+
+.iszene-inner {
+	background: #43a6df;
+	text-align: center;
+	padding: 10px 15px;
+	margin-left: -15px;
+	width: 100%;
+	position: relative;
+	color: #ffffff;
+	border-top: 0.5px solid #c8c7cc;
+	border-bottom: 0.5px solid #c8c7cc;
+}
+
+.requires-inner {
+	background: #2980b9;
+	padding: 10px 15px;
+	margin-left: -15px;
+	width: 100%;
+	position: relative;
+	color: #ffffff;
+	border-top: 0.5px solid #c8c7cc;
+	border-bottom: 0.5px solid #c8c7cc;
+}
+
+.warning-inner {
+	background: #c0392b;
+	padding: 10px 15px;
+	margin-left: -15px;
+	width: 100%;
+	position: relative;
+	color: #ffffff;
+	border-top: 0.5px solid #c8c7cc;
+	border-bottom: 0.5px solid #c8c7cc;
+}
+
+.link-inner {
+	background: #ffffff;
+	padding: 10px 15px;
+	margin-left: -15px;
+	width: 100%;
+	position: relative;
+	color: #000000;
+	font-size: 16px;
+	border-top: 0,5px solid #c8c7cc;
+	border-bottom: 0,5px solid #c8c7cc;
+}
+
+
+
+.link inner i {
+	color: #6d6d72;
+}
+
+a:link, a:hover, a:active, a:focus {
+	text-decoration: none;
+	border-top: 0,5px solid #c8c7cc;
+	border-bottom: 0,5px solid #c8c7cc;
+	
+}
+
+
+
